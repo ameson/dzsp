@@ -1,0 +1,41 @@
+/* index.css - 首页样式 */
+
+/* Hero区域样式 */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+
+/* 顶部搜索框样式 */
+.top-search {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0.5rem 0;
+}
+
+/* 新闻模块样式 */
+.news-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* 产品模块样式 */
+.products-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* 联系我们模块样式 */
+.contact-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

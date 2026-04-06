@@ -1,0 +1,81 @@
+html {
+            scroll-behavior: smooth;
+        }
+        body {
+            max-width: 1920px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        .content-container {
+            max-width: 1280px;
+            margin: 0 auto;
+            width: 100%;
+            padding: 0 15px;
+        }
+        .hero-bg {
+            background-image: url('../img/hero-bg.png');
+            background-size: cover;
+            background-position: center;
+            height: 850px;
+        }
+        .about-bg {
+            background-image: url('../img/about-bg.png');
+            background-size: cover;
+            background-position: center;
+            height: 800px;
+        }
+        .contact-bg {
+            background-image: url('https://picsum.photos/1920/580?random=2');
+            background-size: cover;
+            background-position: center;
+            height: 580px;
+        }
+        .nav-bg {
+            background-color: #0a2463;
+            height: 80px;
+        }
+        .navbar-nav .nav-link {
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .news-sidebar {
+            background-color: #8cad9a;
+        }
+        .products-sidebar {
+            background-color: #b8c5d6;
+        }
+        .footer-bg {
+            background-color: #0a2463;
+        }
+        .sgm-logo-dot {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: linear-gradient(to right, #3b82f6, #f97316);
+        }
+        .btn-learn-more {
+            background-color: white;
+            color: #0a2463;
+            padding: 8px 24px;
+            border-radius: 4px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .btn-learn-more:hover {
+            background-color: #e0e7ff;
+            color: #0a2463;
+        }
+        .about-content {
+            background-color: rgba(140, 173, 154, 0.2);
+        }
+        .news-image {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .product-image {
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+        }

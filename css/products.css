@@ -1,0 +1,35 @@
+/* products.css - 产品页面样式 */
+
+/* 产品模块样式 */
+.products-section {
+    padding: 5rem 0;
+}
+
+/* 产品项样式 */
+.product-item {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* 产品图片样式 */
+.product-item img {
+    width: 100%;
+    height: 390px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+/* 产品标题样式 */
+.product-item h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #0a2463;
+}
+
+/* 产品描述样式 */
+.product-item p {
+    font-size: 0.9rem;
+    color: #666;
+}

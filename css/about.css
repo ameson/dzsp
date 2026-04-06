@@ -1,0 +1,57 @@
+/* about.css - 关于我们页面样式 */
+
+/* 公司简介样式 */
+.company-profile {
+    padding: 5rem 0;
+}
+
+/* 公司简介标题样式 */
+.company-profile h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #0a2463;
+}
+
+/* 公司简介内容样式 */
+.company-profile p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+/* 服务模块样式 */
+.services-section {
+    padding: 5rem 0;
+    background-color: #f8f9fa;
+}
+
+/* 服务模块标题样式 */
+.services-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #0a2463;
+    text-align: center;
+}
+
+/* 服务项样式 */
+.service-item {
+    margin-bottom: 3rem;
+}
+
+/* 服务项标题样式 */
+.service-item h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #0a2463;
+}
+
+/* 服务项内容样式 */
+.service-item p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333;
+}
